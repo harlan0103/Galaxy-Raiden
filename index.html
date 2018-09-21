@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Haoran Liang(hl74)" />
+        <title>Flight Game</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    
+    <body>
+        <div id="game_canvas">
+            <img src="images/Flight.png" id="user_flight">
+        </div>
+        
+        <div id="endgame_display">
+            <div id="loseLogo">
+                <img id="you_lose" src="images/loseLogo.png">
+            </div>
+            <!--Display socre information-->
+            <div id="endgame_score_board">
+                <div class="ENDGAME_SCORE" id="end_score">SCORE: 0</div>
+                <div class="ENDGAME_SCORE" id="end_kill">KILLS: 0</div>
+                <div class="ENDGAME_SCORE" id="end_alive_time">ALIVE TIME: 00:00:0000</div>
+                <div class="ENDGAME_SCORE" id="end_distance">DISTANCE: 0</div>
+                <div class="ENDGAME_SCORE" id="end_highest_score">HIGHEST SCORE: 0</div>
+                <div class="ENDGAME_SCORE" id="end_most_kill">MOST KILLS: 0</div>
+            </div>
+            <!--The restart button and exit button-->
+            <div id="select_button">
+                <button class="BTN" id="restart_btn" value="RESTART">RESTART</button>
+            </div>
+        </div>
+        <div id="score_board">
+            <div class="SCORE_INFO" id="current_score">SCORE: 0</div>
+            <div class="SCORE_INFO" id="current_kill">KILLS: 0</div>
+            <div class="SCORE_INFO" id="current_alive_time">ALIVE TIME: 00:00:0000</div>
+            <div class="SCORE_INFO" id="current_distance">DISTANCE: 0</div>
+            <div class="SCORE_INFO" id="highest_score">HIGHEST SCORE:</div>
+            <div class="SCORE_INFO" id="most_kill">MOST KILLS</div>
+            
+            <div id="instruction">
+                <ul>
+                    <li>Use mouse to avoid enemy bullet</li>
+                    <li>Press "A" to fire</li>
+                    <li>Try to get the highest score!</li>
+                </ul>
+            </div>
+        </div>
+        
+        
+        
+        <script type="text/javascript" src="game.js"></script>
+    </body>
+</html>
