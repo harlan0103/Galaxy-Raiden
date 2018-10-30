@@ -11,4 +11,4 @@ A Flight Game
 When user get 200+ scores<br/>
 Enter Phase Two
 ## ScreenShot
-![Image]()
+![Image](https://github.com/harlan0103/JavaScriptFlightGame/blob/master/screenshot.png)
