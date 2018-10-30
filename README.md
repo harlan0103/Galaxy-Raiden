@@ -1,6 +1,6 @@
 # Javascript Flight Game
 ## Overview
-A Flight Game
+A Flight Game<br/>
 https://flight-game-harlan.surge.sh
 ## Instruction
 1. Use mouse to avoid enemy flight<br/>
