@@ -10,3 +10,5 @@ A Flight Game
 ## Difficulty
 When user get 200+ scores<br/>
 Enter Phase Two
+## ScreenShot
+![Image]()
