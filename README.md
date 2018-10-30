@@ -1,6 +1,6 @@
 # Javascript Flight Game
-Javascript Flight Game
-flight-game-harlan-surge.sh
+Javascript Flight Game<br/>
+www.flight-game-harlan-surge.sh
 ## Overview
 A Flight Game
 ## Instruction
